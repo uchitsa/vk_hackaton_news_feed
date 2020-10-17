@@ -1,36 +1,68 @@
 PODS:
-  - cdebug (1.3)
-  - FoundationExtension (2.1.0):
-    - cdebug (~> 1.3)
-    - FoundationExtension/FoundationExtension (= 2.1.0)
-    - FoundationExtension/FoundationExtensionRC (= 2.1.0)
-  - FoundationExtension/FoundationExtension (2.1.0):
-    - cdebug (~> 1.3)
-    - FoundationExtension/FoundationExtensionRC
-  - FoundationExtension/FoundationExtensionRC (2.1.0):
-    - cdebug (~> 1.3)
+  - FastEasyMapping (1.2.2)
+  - FoundationExtension (1.0.4):
+    - KeychainSwift (~> 19.0)
+    - MBProgressHUD (~> 1.1.0)
+    - PromiseKit (~> 6.0)
+  - KeychainSwift (19.0.0)
+  - MBProgressHUD (1.1.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - ReachabilitySwift (5.0.0)
+  - RepositorySource (3.1.1):
+    - FastEasyMapping (~> 1.0)
+    - FoundationExtension (~> 1.0.3)
+    - PromiseKit (~> 6.0)
+    - ReachabilitySwift (~> 5.0)
   - Swinject (2.7.1)
   - UIComponents (1.0.2)
 
 DEPENDENCIES:
   - FoundationExtension
+  - PromiseKit
+  - R.swift
+  - RepositorySource (~> 3.0)
   - Swinject
   - UIComponents
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - cdebug
-    - FoundationExtension
+    - FastEasyMapping
+    - KeychainSwift
+    - MBProgressHUD
+    - PromiseKit
+    - R.swift
+    - R.swift.Library
+    - ReachabilitySwift
     - Swinject
   https://github.com/FabitMobile/fabit-specs.git:
+    - FoundationExtension
+    - RepositorySource
     - UIComponents
 
 SPEC CHECKSUMS:
-  cdebug: 0d0b7207fa996236ee9e07e5988e5e39a1d94a28
-  FoundationExtension: 56c1c923c9a3bc69c5a5ac08c47c8f2f57b06288
+  FastEasyMapping: cc13aa6608aeb171bc0ea895876434a7328a153a
+  FoundationExtension: f09e7ee9d3acf6c38391fe5431d2c1c4964f0a76
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RepositorySource: 5e41a67d0591801feb120adf506bef76d2524022
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   UIComponents: 23fc2d4ad094e3eeb988468dd5dfc8d323800afb
 
-PODFILE CHECKSUM: b8f3714dc96168852b0f0cd38071b3b45dbc4f2f
+PODFILE CHECKSUM: 0321937bbd0d214e076911c61ef1ba36ff27d2b9
 
 COCOAPODS: 1.9.3

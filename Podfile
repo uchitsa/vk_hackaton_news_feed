@@ -12,14 +12,8 @@ target 'news_feed' do
   pod 'Swinject'
   pod 'UIComponents'
   pod 'FoundationExtension'
-
-  target 'news_feedTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'news_feedUITests' do
-    # Pods for testing
-  end
+  pod 'RepositorySource', '~> 3.0' 
+  pod 'PromiseKit'
+  pod 'R.swift'
 
 end

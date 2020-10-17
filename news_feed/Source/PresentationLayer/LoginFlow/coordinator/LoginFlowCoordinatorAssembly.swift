@@ -13,7 +13,8 @@ class LoginFlowCoordinatorAssembly: SwinjectAssembly {
         container.register(LoginFlowCoordinator.self) { res, navCtrl in
             LoginFlowCoordinator(vcFactory: res.resolve(VCFactory.self)!,
                                  coordinatorFactory: (),
-                                 router: navCtrl)
+                                 router: navCtrl,
+                                 appConfig: res.resolve(AppConfig.self)!)
         }
     }
 }

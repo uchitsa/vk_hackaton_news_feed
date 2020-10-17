@@ -14,5 +14,9 @@ class ApplicationLayerAssembly: SwinjectAssembly {
         container.register(UIWindow.self) { res in
             UIWindow()
         }.inObjectScope(.container)
+        
+        container.register(AppConfig.self) { res in
+            AppConfig()
+        }
     }
 }

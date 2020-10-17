@@ -46,6 +46,7 @@ class AppCoordinator: BaseCoordinator<Void, CoordinatorFactory, UIWindow>,
     func startLoginFlow(router: UINavigationController) {
         let coordinator = coordinatorFactory.makeLoginFlowCoordinator(router: router)
         coordinator.delegate = self
+        storage.add(coordinator)
         
         coordinator.start()
     }
@@ -53,6 +54,7 @@ class AppCoordinator: BaseCoordinator<Void, CoordinatorFactory, UIWindow>,
     func startCitySelectionFlow(router: UINavigationController) {
         let coordinator = coordinatorFactory.makeCitySelectionFlowCoordinator(router: router)
         coordinator.delegate = self
+        storage.add(coordinator)
         
         coordinator.start()
     }
@@ -60,6 +62,7 @@ class AppCoordinator: BaseCoordinator<Void, CoordinatorFactory, UIWindow>,
     func startMainFlow(router: UINavigationController) {
         let coordinator = coordinatorFactory.makeMainFlowCoordinator(router: router)
         coordinator.delegate = self
+        storage.add(coordinator)
         
         coordinator.start()
     }

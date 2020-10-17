@@ -17,6 +17,6 @@ extension AppCoordinator {
 
 class AppCoordinatorInstructor {
     func launchOption() -> AppCoordinator.LaunchOption {
-        return .main
+        return .login
     }
 }

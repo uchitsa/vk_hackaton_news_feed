@@ -14,7 +14,7 @@ class AppCoordinatorAssembly: SwinjectAssembly {
             AppCoordinator(coordinatorFactory: res.resolve(CoordinatorFactory.self)!,
                            router: res.resolve(UIWindow.self)!,
                            instructor: res.resolve(AppCoordinatorInstructor.self)!)
-        }
+        }.inObjectScope(.container)
         
         container.register(AppCoordinatorInstructor.self) { res in
             AppCoordinatorInstructor()

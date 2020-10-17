@@ -7,6 +7,7 @@
 
 import Foundation
 import Swinject
+import FoundationExtension
 
 class PresentationLayerAssembly: SwinjectAssembly {
     func configure(_ container: Container) {
@@ -18,13 +19,17 @@ class PresentationLayerAssembly: SwinjectAssembly {
             CoordinatorFactory(resolver: container.synchronize())
         }
         
+        container.register(DialogService.self) { _ in
+            DialogServiceImpl()
+        }
+        
         configureCoordinators(container)
         configureScreens(container)
     }
     
     func configureScreens(_ container: Container) {
         [SwinjectAssembly](
-            arrayLiteral:  FeedScreenAssembly()
+            arrayLiteral:  FeedScreenAssembly(), LoginScreenAssembly(), VKLoginAssebly()
         ).forEach { $0.configure(container) }
     }
     
