@@ -36,7 +36,6 @@
 		65697380253AF26600B60E41 /* FeedScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569737F253AF26500B60E41 /* FeedScreenAssembly.swift */; };
 		6593E202253B0FAC005ED7E2 /* PostManaged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E201253B0FAC005ED7E2 /* PostManaged.swift */; };
 		6593E209253B0FC9005ED7E2 /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E208253B0FC9005ED7E2 /* PostsRepository.swift */; };
-		6593E214253B103C005ED7E2 /* PostsRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E213253B103C005ED7E2 /* PostsRepositoryImpl.swift */; };
 		6593E251253B19CB005ED7E2 /* Login+Reactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E248253B19CB005ED7E2 /* Login+Reactions.swift */; };
 		6593E252253B19CB005ED7E2 /* LoginScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E249253B19CB005ED7E2 /* LoginScreenAssembly.swift */; };
 		6593E253253B19CB005ED7E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E24A253B19CB005ED7E2 /* LoginView.swift */; };
@@ -48,14 +47,13 @@
 		6593E26D253B1BC6005ED7E2 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E26C253B1BC6005ED7E2 /* R.generated.swift */; };
 		6593E271253B219B005ED7E2 /* LoginListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E270253B219B005ED7E2 /* LoginListFactory.swift */; };
 		6593E277253B2417005ED7E2 /* SocialNetworkCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E276253B2417005ED7E2 /* SocialNetworkCellVM.swift */; };
-		6593E27A253B26E4005ED7E2 /* SocialNetworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E279253B26E4005ED7E2 /* SocialNetworkCell.swift */; };
 		6593E27D253B26FF005ED7E2 /* SocialNetworkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6593E27C253B26FF005ED7E2 /* SocialNetworkCell.xib */; };
-		6593E280253B3007005ED7E2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E27F253B3006005ED7E2 /* Post.swift */; };
 		6593E28C253B335C005ED7E2 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E28B253B335C005ED7E2 /* AppConfig.swift */; };
 		6593E292253B3465005ED7E2 /* VKLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E291253B3465005ED7E2 /* VKLoginViewController.swift */; };
 		6593E295253B346F005ED7E2 /* VKLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E294253B346F005ED7E2 /* VKLoginView.swift */; };
 		6593E298253B3515005ED7E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6593E297253B3515005ED7E2 /* Localizable.strings */; };
 		6593E29B253B35D3005ED7E2 /* VKLoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593E29A253B35D3005ED7E2 /* VKLoginAssembly.swift */; };
+		65D85995253B63230094BDE8 /* SocialNetworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D85994253B63230094BDE8 /* SocialNetworkCell.swift */; };
 		65E2F061253AF738001F0548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65697297253ADD7300B60E41 /* LaunchScreen.storyboard */; };
 		65E2F067253AF814001F0548 /* FeedbackVCState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E2F066253AF814001F0548 /* FeedbackVCState.swift */; };
 		65E2F072253AF8CE001F0548 /* Feed+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E2F071253AF8CE001F0548 /* Feed+State.swift */; };
@@ -101,7 +99,6 @@
 		6569737F253AF26500B60E41 /* FeedScreenAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedScreenAssembly.swift; sourceTree = "<group>"; };
 		6593E201253B0FAC005ED7E2 /* PostManaged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManaged.swift; sourceTree = "<group>"; };
 		6593E208253B0FC9005ED7E2 /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
-		6593E213253B103C005ED7E2 /* PostsRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepositoryImpl.swift; sourceTree = "<group>"; };
 		6593E248253B19CB005ED7E2 /* Login+Reactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Login+Reactions.swift"; sourceTree = "<group>"; };
 		6593E249253B19CB005ED7E2 /* LoginScreenAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenAssembly.swift; sourceTree = "<group>"; };
 		6593E24A253B19CB005ED7E2 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -113,14 +110,13 @@
 		6593E26C253B1BC6005ED7E2 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		6593E270253B219B005ED7E2 /* LoginListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginListFactory.swift; sourceTree = "<group>"; };
 		6593E276253B2417005ED7E2 /* SocialNetworkCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkCellVM.swift; sourceTree = "<group>"; };
-		6593E279253B26E4005ED7E2 /* SocialNetworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkCell.swift; sourceTree = "<group>"; };
 		6593E27C253B26FF005ED7E2 /* SocialNetworkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocialNetworkCell.xib; sourceTree = "<group>"; };
-		6593E27F253B3006005ED7E2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		6593E28B253B335C005ED7E2 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		6593E291253B3465005ED7E2 /* VKLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLoginViewController.swift; sourceTree = "<group>"; };
 		6593E294253B346F005ED7E2 /* VKLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLoginView.swift; sourceTree = "<group>"; };
 		6593E297253B3515005ED7E2 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		6593E29A253B35D3005ED7E2 /* VKLoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLoginAssembly.swift; sourceTree = "<group>"; };
+		65D85994253B63230094BDE8 /* SocialNetworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkCell.swift; sourceTree = "<group>"; };
 		65E2F066253AF814001F0548 /* FeedbackVCState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVCState.swift; sourceTree = "<group>"; };
 		65E2F071253AF8CE001F0548 /* Feed+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feed+State.swift"; sourceTree = "<group>"; };
 		65E2F076253AF985001F0548 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
@@ -365,7 +361,6 @@
 			isa = PBXGroup;
 			children = (
 				6593E201253B0FAC005ED7E2 /* PostManaged.swift */,
-				6593E213253B103C005ED7E2 /* PostsRepositoryImpl.swift */,
 			);
 			path = post;
 			sourceTree = "<group>";
@@ -382,7 +377,6 @@
 			isa = PBXGroup;
 			children = (
 				6593E208253B0FC9005ED7E2 /* PostsRepository.swift */,
-				6593E27F253B3006005ED7E2 /* Post.swift */,
 			);
 			path = post;
 			sourceTree = "<group>";
@@ -423,8 +417,8 @@
 			isa = PBXGroup;
 			children = (
 				6593E276253B2417005ED7E2 /* SocialNetworkCellVM.swift */,
-				6593E279253B26E4005ED7E2 /* SocialNetworkCell.swift */,
 				6593E27C253B26FF005ED7E2 /* SocialNetworkCell.xib */,
+				65D85994253B63230094BDE8 /* SocialNetworkCell.swift */,
 			);
 			path = SocialNetworkCell;
 			sourceTree = "<group>";
@@ -626,10 +620,8 @@
 				65E2F077253AF985001F0548 /* FeedbackViewController.swift in Sources */,
 				65697380253AF26600B60E41 /* FeedScreenAssembly.swift in Sources */,
 				6569734C253AECCB00B60E41 /* LoginFlowCoordinatorAssembly.swift in Sources */,
-				6593E27A253B26E4005ED7E2 /* SocialNetworkCell.swift in Sources */,
 				6593E28C253B335C005ED7E2 /* AppConfig.swift in Sources */,
 				65697351253AEE9100B60E41 /* CitySelectionFlowCoordinator.swift in Sources */,
-				6593E280253B3007005ED7E2 /* Post.swift in Sources */,
 				6569735E253AEF7A00B60E41 /* MainFlowCoordinator.swift in Sources */,
 				656972BC253AE25E00B60E41 /* SwinjectAssembly.swift in Sources */,
 				656972C4253AE27D00B60E41 /* ServiceLayerAssembly.swift in Sources */,
@@ -642,11 +634,11 @@
 				6593E26D253B1BC6005ED7E2 /* R.generated.swift in Sources */,
 				656972D3253AE2DC00B60E41 /* PresentationLayerAssembly.swift in Sources */,
 				65697320253AEA4000B60E41 /* VCFactory.swift in Sources */,
+				65D85995253B63230094BDE8 /* SocialNetworkCell.swift in Sources */,
 				656972FC253AE5F000B60E41 /* CoordinatorWithStorage.swift in Sources */,
 				65E2F081253AFD07001F0548 /* Feed+Bindings.swift in Sources */,
 				6593E257253B19CB005ED7E2 /* LoginViewController.swift in Sources */,
 				6569730D253AE90F00B60E41 /* AppCoordinator.swift in Sources */,
-				6593E214253B103C005ED7E2 /* PostsRepositoryImpl.swift in Sources */,
 				6593E209253B0FC9005ED7E2 /* PostsRepository.swift in Sources */,
 				6593E202253B0FAC005ED7E2 /* PostManaged.swift in Sources */,
 				6593E253253B19CB005ED7E2 /* LoginView.swift in Sources */,
