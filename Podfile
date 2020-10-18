@@ -15,5 +15,6 @@ target 'news_feed' do
   pod 'RepositorySource', '~> 3.0' 
   pod 'PromiseKit'
   pod 'R.swift'
+  pod 'VK-ios-sdk'
 
 end
