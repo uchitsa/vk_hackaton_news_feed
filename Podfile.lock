@@ -26,6 +26,7 @@ PODS:
     - ReachabilitySwift (~> 5.0)
   - Swinject (2.7.1)
   - UIComponents (1.0.2)
+  - VK-ios-sdk (1.5.1)
 
 DEPENDENCIES:
   - FoundationExtension
@@ -34,6 +35,7 @@ DEPENDENCIES:
   - RepositorySource (~> 3.0)
   - Swinject
   - UIComponents
+  - VK-ios-sdk
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -45,6 +47,7 @@ SPEC REPOS:
     - R.swift.Library
     - ReachabilitySwift
     - Swinject
+    - VK-ios-sdk
   https://github.com/FabitMobile/fabit-specs.git:
     - FoundationExtension
     - RepositorySource
@@ -62,7 +65,8 @@ SPEC CHECKSUMS:
   RepositorySource: 5e41a67d0591801feb120adf506bef76d2524022
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   UIComponents: 23fc2d4ad094e3eeb988468dd5dfc8d323800afb
+  VK-ios-sdk: 62a10b6571fbcda0657f455fedce7fedf55b4cd0
 
-PODFILE CHECKSUM: 0321937bbd0d214e076911c61ef1ba36ff27d2b9
+PODFILE CHECKSUM: c68bb1ce592ba5fcbfde8a05ac353593c0f2d417
 
 COCOAPODS: 1.9.3
